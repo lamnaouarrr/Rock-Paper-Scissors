@@ -2,10 +2,10 @@ let computerScore = 0;
 let playerScore = 0;
 let computerChoice = ["rock", "paper", "scissors"];
 let playerSelection;
+let computerSelection;
 let rounds = 0;
 const container = document.querySelector('#container');
 const content = document.createElement('div');
-let computerSelection;
 
 function getComputerChoice() {
     return computerChoice[Math.floor(Math.random() * computerChoice.length)];
